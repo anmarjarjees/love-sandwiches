@@ -6,3 +6,7 @@ __pycache__/
 *.py[cod]
 node_modules/
 creds.json
+
+# Adding our virtual environment folder
+# in case if you work locally:
+ls-venv/

@@ -1,0 +1,49 @@
+This file contains quick Steps for my students:
+
+Part1: 
+Finish the required setup in Google Cloud based on my pdf file instructions
+
+Part2: 
+Step 1) If you work online using Gitpod, you can just use the CI starter template 
+and skip to the third point.
+but if you work local, you need to create a virtual environment first:
+I will name it "ls-venv" for "Love Sandwiches virtual environment"
+>> python3 -m venv ls-venv
+OR
+>> python -m venv ls-venv
+
+Step 2) Activate your virtual environment:
+* On Windows, run:
+>> .\ls-venv\Scripts\activate 
+OR JUST:
+>> ls-venv\Scripts\activate
+NOTE: with Windows CMD >> ls-venv\Scripts\activate.bat
+* On Unix or MacOS, run:
+>>source tutorial-env/bin/activate
+
+NOTE: Please DON'T forget to ignore the virtual environment folder using .gitignore file
+
+Step 3) Install the required packages (dependencies):
+>> pip install gspread OR (LMS) pip3 install gspread
+>> pip install google-auth OR (LMS) pip3 install google-auth
+NOTE: You can install the two packages at one time 
+by combining the two pip commands into one:
+>> pip install google-auth gspread
+
+You can use the command pip freeze or pip list
+to double check that the required packages are installed
+
+Part 4) The requirements.txt file:
+- Create this file:
+>> pip freeze > requirements.txt
+- To use/install its dependencies:
+>> pip install -r requirements.txt
+
+Part 5) Happy Coding!
+
+
+
+
+
+
+
